@@ -1,0 +1,49 @@
+Sondagem
+
+Usando a API gratuita da Marvel
+https://developer.marvel.com
+
+Iremos listar e mostrar os super-heróis como forma de análise básica do código.
+
+Requisitos WEB
+
+- React WEB
+- Usar Reactstrap, Material UI ou outra lib UI de preferência
+- Redux
+- Redux-saga
+- Axios
+
+Requisitos Native
+
+- React Native
+- react-native-elements
+- Redux
+- Redux-saga
+- Axios
+
+Tarefas
+
+1 - Em uma onepage listar em cards os heróis da API
+2 - O card do herói deverá conter imagem e nome
+3 - Fazer paginação dinâmica, para quando chegar ao fim da tela mostrar mais itens
+4 - Ao clicar no herói, abrir modal mostrando demais informações vindo da API
+
+
+===================================================================================
+
+
+
+PUBLIC KEY: 705ef368bd0b8bec4ac628ff0acfe941
+
+PRIVATE KEY: 83c8a92d2deef45607fac838226a1be5b9bd1d4b
+
+TS + PRIVATE KEY + PUBLIC KEY:
+183c8a92d2deef45607fac838226a1be5b9bd1d4b705ef368bd0b8bec4ac628ff0acfe941
+
+MD5 COMBINATION
+624fbbba7f6ccdb65a6efb61412c6ffa
+
+AUTHENTICATION:
+http://gateway.marvel.com/v1/public/comics?ts=1&apikey=705ef368bd0b8bec4ac628ff0acfe941&hash=624fbbba7f6ccdb65a6efb61412c6ffa
+
+http://gateway.marvel.com/v1/public/characters?ts=1&apikey=705ef368bd0b8bec4ac628ff0acfe941&hash=624fbbba7f6ccdb65a6efb61412c6ffa
